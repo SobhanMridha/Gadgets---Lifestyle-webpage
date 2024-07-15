@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Contrail+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Contrail One", sans-serif;
+}
+
+/* nav bar section  */
+
+.nav-container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-container > img {
+  display: none;
+}
+
+.nav-container ul {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-container li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+
+.nav-container p {
+  color: #3a3a3a;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 576px) {
+  /* nav section  */
+  .nav-container {
+    display: flex;
+  }
+
+  .nav-container > ul > li {
+    display: none;
+  }
+
+  .nav-container > img {
+    display: inline;
+  }
+  
+  .nav-container p {
+    color: #3a3a3a;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+}
