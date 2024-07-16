@@ -257,6 +257,7 @@ body {
     width: 100%;
     font-size: 2rem;
     text-align: center;
+    border: 2px dashed #e02c6d;
   }
 
   .banner-content p {
@@ -291,7 +292,10 @@ body {
   .popular-container {
     margin: 0 30px;
   }
-
+  
+  .heading {
+    margin-left: -15px;
+  }
   .heading h3 {
     font-size: 1.8rem;
   }
