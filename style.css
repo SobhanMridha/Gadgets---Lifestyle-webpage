@@ -195,6 +195,32 @@ body {
   color: black;
 }
 
+/* copy right section  */
+
+.copy-right-container {
+  text-align: center;
+  background-color: #0A0826;
+}
+
+.copy-right-container h3 {
+  color: #d9dbe1;
+  font-size: 2rem;
+  font-style: 700;
+  padding-top: 30px;
+}
+
+.copy-right-container p {
+  color: #d9dbe1;
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.media img{
+  margin-left: 5px;
+}
+
 /* Responsive section  */
 
 @media screen and (max-width: 576px) {
@@ -295,5 +321,4 @@ body {
   .footer-des p {
     width: 100%;
   }
-
 }
